@@ -71,7 +71,7 @@ def get_pie_chart(entered_site):
             filtered_df
             ,values='class'
             ,names='Launch Site' 
-            ,title='title'
+            ,title='success rate for all launch sites'
         )
         return fig
     else:
@@ -81,7 +81,7 @@ def get_pie_chart(entered_site):
             filtered_df, 
             values='Unnamed: 0', 
             names='class', 
-            title='title'
+            title='success rate for each launch site'
         )
     # return the outcomes piechart for a selected site
     return fig
